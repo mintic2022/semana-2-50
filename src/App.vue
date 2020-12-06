@@ -5,8 +5,8 @@
         <b-navbar-brand href="#">Equipo 50</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-        <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav>
+        <b-collapse class="nav justify-content-end"  id="nav-collapse" is-nav>
+          <b-navbar-nav class="nav justify-content-end">
             <b-nav-item href="#">Inicio</b-nav-item>
             <b-nav-item href="#news">Noticias</b-nav-item>
             <b-nav-item href="#equipo">Equipo</b-nav-item>
