@@ -15,30 +15,31 @@
       </b-container>
     </b-navbar>
 
-    <b-container fluid id=Carousel>      
-      <Carousel/>
+    <b-container fluid id="Carousel">
+      <Carousel />
     </b-container>
 
-    <b-container fluid id=news>
+    <b-container fluid id="news">
       <b-row class="mt-5 text-center justify-content-md-center">
         <h1>Noticias</h1>
       </b-row>
-      <News/>
+      <News />
     </b-container>
-
-
-    
+    <PageFooter />
   </div>
 </template>
 
 <script>
 import News from './components/News.vue';
 import Carousel from './components/Carousel.vue';
+import PageFooter from './components/PageFooter';
 export default {
-  name: "App",
-  components:{
-    News, Carousel    
-  }
+  name: 'App',
+  components: {
+    News,
+    Carousel,
+    PageFooter,
+  },
 };
 </script>
 
@@ -49,5 +50,3 @@ export default {
   margin-bottom: 10px; /* Added */
 }
 </style>
-
-
