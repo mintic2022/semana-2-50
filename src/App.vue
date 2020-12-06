@@ -14,11 +14,9 @@
         </b-collapse>
       </b-container>
     </b-navbar>
-
     <b-container fluid id="Carousel">
       <Carousel />
     </b-container>
-
     <b-container fluid id="news">
       <b-row class="mt-5 text-center justify-content-md-center">
         <h1>Noticias</h1>
