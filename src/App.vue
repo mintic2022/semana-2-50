@@ -5,7 +5,7 @@
         <b-navbar-brand href="#">Equipo 50</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-        <b-collapse id="nav-collapse" is-nav>
+        <b-collapse class="nav justify-content-end" id="nav-collapse" is-nav>
           <b-navbar-nav>
             <b-nav-item href="#">Inicio</b-nav-item>
             <b-nav-item href="#news">Noticias</b-nav-item>
@@ -25,7 +25,7 @@
     </b-container>
 
     <!-- Seccion de Integrantes -->
-    <div class="row justify-content-md-center mt-5" id=equipo>
+    <div class="row justify-content-md-center mt-5" id="equipo">
       <h1>Equipo</h1>
     </div>
     <div class="container-fluid">
@@ -37,7 +37,7 @@
         </div>
       </div>
     </div>
-    <!-- FIN de Integrantes -->    
+    <!-- FIN de Integrantes -->
 
     <PageFooter />
   </div>
@@ -55,52 +55,56 @@ export default {
     News,
     PageFooter,
     Carousel,
-    TeamCard
+    TeamCard,
   },
 
-data(){
-  return{
-    member: [
-      {
-        codigo : 1214734035 ,
-        nombre : 'Jefferson Andrés Espejo Goez' ,
-        descripcion : 'Ingeniero electricista en formación en la UN sede Medellín. Pasatiempos el tenis de campo y la programación. Me gusta leer novelas en mis ratos libres y tomar mucho café' ,
-        rol : 'Desarrollador Frontend' ,
-        image : require('../src/assets/images/foto1.png')
-      },
-      {
-        codigo : 1035426930 ,
-        nombre : 'Jose Luis Muñoz' ,
-        descripcion : 'Futuro Programador Full Stack de la UTP. 28 años. Como pasatiempo me gustar hacer deporte y escuchar musica' ,
-        rol : 'Arquitecto de Software' ,
-        image : require('../src/assets/images/foto2.png')
-      },
-      {
-        codigo : 16915663 ,
-        nombre : 'Fabián Díaz' ,
-        descripcion : '39 años,Ingeniero Telematico - Master en Direccion de Comercio Internacional con 39 años. Pasatiempos: Buceo, Paracaidismo, Trail Running, Criptoactivos y Blockchain' ,
-        rol : 'Desarrollador Backend' ,
-        image : require('../src/assets/images/foto3.png')
-      },
-      {
-        codigo : 1032370645 ,
-        nombre : 'Néstor Manosalva Barrera' ,
-        descripcion : 'Ingeniero de Sistemas de la UNAL de Bogotá con 34 años. Pasatiempos: camping, fotografía, drones' ,
-        rol : 'Analista de Software' ,
-        image : require('../src/assets/images/foto4.png')
-      },
-      {
-        codigo : 1093787178 ,
-        nombre : 'Freyberth Pabón' ,
-        descripcion : 'Ingeniero Electromecanico graduado de la UFPS con 24 años. Pasatiempos: Me gustan los videojuegos y hacer deporte' ,
-        rol : 'Tester' ,
-        image : require('../src/assets/images/foto5.png')
-      }
-    ]
-  }
-}
+  data() {
+    return {
+      member: [
+        {
+          codigo: 1214734035,
+          nombre: 'Jefferson Andrés Espejo Goez',
+          descripcion:
+            'Ingeniero electricista en formación en la UN sede Medellín. Pasatiempos el tenis de campo y la programación. Me gusta leer novelas en mis ratos libres y tomar mucho café',
+          rol: 'Desarrollador Frontend',
+          image: require('../src/assets/images/foto5.png'),
+        },
+        {
+          codigo: 1035426930,
+          nombre: 'Jose Luis Muñoz',
+          descripcion:
+            'Futuro Programador Full Stack de la UTP. 28 años. Como pasatiempo me gustar hacer deporte y escuchar musica',
+          rol: 'Arquitecto de Software',
+          image: require('../src/assets/images/foto2.png'),
+        },
+        {
+          codigo: 16915663,
+          nombre: 'Fabián Díaz',
+          descripcion:
+            '39 años,Ingeniero Telematico - Master en Direccion de Comercio Internacional con 39 años. Pasatiempos: Buceo, Paracaidismo, Trail Running, Criptoactivos y Blockchain',
+          rol: 'Desarrollador Backend',
+          image: require('../src/assets/images/foto3.png'),
+        },
+        {
+          codigo: 1032370645,
+          nombre: 'Néstor Manosalva Barrera',
+          descripcion:
+            'Ingeniero de Sistemas de la UNAL de Bogotá con 34 años. Pasatiempos: camping, fotografía, drones',
+          rol: 'Analista de Software',
+          image: require('../src/assets/images/foto4.png'),
+        },
+        {
+          codigo: 1093787178,
+          nombre: 'Freyberth Pabón',
+          descripcion:
+            'Ingeniero Electromecanico graduado de la UFPS con 24 años. Pasatiempos: Me gustan los videojuegos y hacer deporte',
+          rol: 'Tester',
+          image: require('../src/assets/images/foto1.png'),
+        },
+      ],
+    };
+  },
 };
-
 </script>
 
 <style scoped>
