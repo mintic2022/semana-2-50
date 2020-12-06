@@ -8,7 +8,7 @@
           <!-- columna   1 -->
           <div class="col-md footer-col text-left">
 
-            <h6 class="text-uppercase small font-weight-bold">Integrantes</h6>
+            <h6 class="text-uppercase small font-weight-bold offset-1">Integrantes</h6>
             <ul class="list-group-flush small text-left">
 
               <li class ="list-group-item bg-secondary text-white text-left">José Luis Muñoz: dlufyace@gmail.com</li>
@@ -21,9 +21,7 @@
           <!-- columna 2 -->
           <div class="col-md footer-col text-left">
 
-            <h6 class="text-uppercase small font-weight-bold">
-              Mantengase Conectado
-            </h6>
+            <h6 class="text-uppercase small font-weight-bold offset-0.5 "> Mantengase Conectado</h6>
 
             <ul
               class="list-group list-group-flush small text-left"
