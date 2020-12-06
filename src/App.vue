@@ -36,7 +36,9 @@ import Carousel from './components/Carousel.vue';
 export default {
   name: "App",
   components:{
-    News, Carousel,PageFooter
+    News,
+    PageFooter,
+    Carousel
   }
 };
 </script>
