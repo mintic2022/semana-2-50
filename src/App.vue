@@ -21,17 +21,18 @@
       </b-row>
       <News/>
     </b-container>
-
-    
+    <PageFooter/>
   </div>
 </template>
 
 <script>
 import News from './components/News.vue';
+import PageFooter from './components/PageFooter.vue';
 export default {
   name: "App",
   components:{
-    News    
+    News,
+    PageFooter    
   }
 };
 </script>
