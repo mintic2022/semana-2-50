@@ -25,19 +25,18 @@
       </b-row>
       <News/>
     </b-container>
-
-
-    
+    <PageFooter/>
   </div>
 </template>
 
 <script>
 import News from './components/News.vue';
+import PageFooter from './components/PageFooter.vue';
 import Carousel from './components/Carousel.vue';
 export default {
   name: "App",
   components:{
-    News, Carousel    
+    News, Carousel,PageFooter
   }
 };
 </script>
