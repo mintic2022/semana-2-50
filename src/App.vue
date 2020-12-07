@@ -18,14 +18,14 @@
       <Carousel />
     </b-container>
     <b-container fluid id="news">
-      <b-row class="mt-5 text-center justify-content-md-center">
+      <b-row class="mt-5 text-center justify-content-center">
         <h1>Noticias</h1>
       </b-row>
       <News />
     </b-container>
 
     <!-- Seccion de Integrantes -->
-    <div class="row justify-content-md-center mt-5" id="equipo">
+    <div class="row justify-content-center mt-5" id="equipo">
       <h1>Equipo</h1>
     </div>
     <div class="container-fluid">
